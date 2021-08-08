@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Airline Manager 4 Bot</h1>
-  ![](https://raw.githubusercontent.com/JavierOlmedo/ALMB/master/img/logo.png)
+    <img src="https://raw.githubusercontent.com/JavierOlmedo/ALMB/master/img/logo.png" width="100px">
+    <h1>Airline Manager 4 Bot</h1>
 </div>
 
 # Install
@@ -22,4 +22,6 @@
 # Screenshots
 ![](https://raw.githubusercontent.com/JavierOlmedo/ALMB/master/img/screenshot_001.png)
 
-> _Made with ❤️ in Spain_
+<div align="center">
+    Made with ❤️ in Spain
+</div>
