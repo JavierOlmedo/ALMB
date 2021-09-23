@@ -8,8 +8,8 @@ class AirlineManager():
     # config
     goodpricefuel = 380
     goodpriceco2 = 115
-    quantityfuel = 99999
-    quantityco2 = 999999
+    quantityfuel = 9999999
+    quantityco2 = 9999999
 
     # constants
     f = open("creds", "r")
@@ -155,7 +155,7 @@ class AirlineManager():
             btnclose = self.driver.find_element_by_xpath(self.xbtnclose)
             btnclose.click()
             sleep(2)
-            savelog(gettime() + "[!] No departures found!", "yellow") 
+            #savelog(gettime() + "[!] No departures found!", "yellow") 
 
     def gobot(self):
         self.login()
@@ -167,7 +167,7 @@ class AirlineManager():
                 self.co2()
                 time = 1800
             self.departures()
-            savelog(gettime() + "[!] Time to check Fuel and CO2 --> {time} seconds".format(time=time), "blue")
+            #savelog(gettime() + "[!] Time to check Fuel and CO2 --> {time} seconds".format(time=time), "blue")
             time -= 60
             sleep(60)
 
